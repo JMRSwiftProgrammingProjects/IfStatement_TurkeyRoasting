@@ -31,8 +31,8 @@ class ViewController: UIViewController
         textView.textColor = .black
         
         
-        
-        let turkeyWeightInPounds: Int = 14
+        // the turkey weights 14 lbs. 
+        let turkeyWeightInPounds: Int = 14;
         
         
         // the turkey must weight greater or equal to 8 and less than or equal to 12 lbs to excute
