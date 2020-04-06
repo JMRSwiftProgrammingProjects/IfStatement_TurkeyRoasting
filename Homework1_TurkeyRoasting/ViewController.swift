@@ -18,9 +18,16 @@ class ViewController: UIViewController
        
         let textView = view as! UITextView
         
+        // the screen is not editable 
         textView.isEditable = false
+        
+        // the background color is yellow
         textView.backgroundColor = .yellow
+        
+        // the font size is 35
         textView.font = .systemFont(ofSize: 35)
+        
+        // the text color is black 
         textView.textColor = .black
         
         
